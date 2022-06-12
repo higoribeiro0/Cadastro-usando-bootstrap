@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumo a Marte - PROEXC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imagens/FAVICON-PROEXC.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container px-4 container1">
+
+    <div class="text-center">
+        <img src="./imagens/logoPROEXC.png" class="img-fluid mt-4 mb-3 topLogo" alt="logo da spaceX">
+    </div>
+
+    <div> 
+    <p class="paragraph">
+        <br>
+        1 - Qual o seu nome?
+    </p>
+    </div>
+    <div class="row g-3 needs-validation " novalidate></div>
+        <div class="col-md-9 ">
+            <label for="validationCustom01" class="form-label">Primeiro nome: </label>
+            <input type="text" class="form-control" id="validationCustom01" required>
+        </div>
+        <div class="col-md-9 ">
+            <label for="validationCustom02" class="form-label">Último nome: </label>
+            <input type="text" class="form-control" id="validationCustom02" required>
+        </div>
+
+        <div>
+            <p class="mt-3 paragraph">
+                2 - Qual o seu gênero?
+            </p>
+        </div>
+            <div class="form-check ">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Homem
+                </label>
+            </div>
+            <div class="form-check ">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Mulher
+                </label>
+            </div>
+            <div class="form-check ">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label" for="flexRadioDefault3">
+                    Prefiro não dizer
+                </label>
+            </div>
+
+            <p class="mt-3 paragraph ">
+                3 - Marque os treinamentos que você fez:
+            </p>
+            <div class="form-check form-switch ">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked1">
+                <label class="form-check-label" for="flexSwitchCheckChecked1">Treinamento básico de astronauta</label>
+            </div>
+            <div class="form-check form-switch ">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked2">
+                <label class="form-check-label" for="flexSwitchCheckChecked2">Treinamento físico básico</label>
+            </div>
+            <div class="form-check form-switch ">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked3">
+                <label class="form-check-label" for="flexSwitchCheckChecked3">Treinamento avançado de astronauta</label>
+            </div>
+            <div class="form-check form-switch ">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked4">
+                <label class="form-check-label" for="flexSwitchCheckChecked4">Treinamento físico intenso</label>
+            </div>
+
+            <P class="mt-4 paragraph ">
+                4 - Quais você acha que são suas qualidades?
+            </P>
+            <div class="form-check form-check-inline ">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Proativo</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Resistente</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox3">Não vomito fácil</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                <label class="form-check-label" for="inlineCheckbox4">Não temo marciano</label>
+            </div>
+            <div class="form-check form-check-inline ">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                <label class="form-check-label" for="inlineCheckbox5">Já vi todos os star wars</label>
+        </div>
+
+        <div class="text-center">
+            <br><br>
+            <button type="button" onclick="Submit()" class="btn btn-outline-success mb-4 text-center btnSucess">Enviar</button>
+        </div>
+    </div>
+
+        <br>
+        <div class="container text-center fotter">
+            <p>Feito por Higo Ribeiro<br>
+            &copy;PROEXC todos os direitos reservados - 2022</p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+        
+        <script src="script.js"></script>
+</body>
+</html>
